@@ -1,17 +1,4 @@
-![AI Animation](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
 
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-<!-- WakaTime metrics -->
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<!-- Animated GIF -->
-![AI Animation](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
-
-
-# redx94
 👋 Hey, I’m redx94, a Software Engineer specializing in AI and Blockchain technologies. I'm passionate about building innovative solutions and contributing to open-source projects. Check out my latest work and contributions below!
 
 ### About Me
