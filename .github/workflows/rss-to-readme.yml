@@ -1,0 +1,26 @@
+name: Update README with Blog Posts
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: RSS to README
+        uses: JasonEtco/rss-to-readme@v1
+        with:
+          feed-url: "https://www.redx94.com/rss.xml" # Replace with your RSS feed URL
+          readme-section: "blog_posts"
+          item-title-format: "- [{title}]({link})"
+          item-limit: 5
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update README with latest blog posts"
+          push_options: "--force"
